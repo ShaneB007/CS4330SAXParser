@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="CS4330SAXParser.jnlp">
+  <information>
+    <title>CS4330SAXParser</title>
+    <vendor>bisho</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="CS4330SAXParser.jar" size="7075" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="CS4330SAXParser" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="cs4330saxparser.CS4330SAXParser"  name="CS4330SAXParser" />
+  <update check="always"/>
+</jnlp>
